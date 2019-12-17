@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar bg-success navbar-dark  navbar-expand-sm navbar fixed-top ">
+        <a href="#" class="navbar-brand  demo-icon icon-leaf"> SZKÓŁKA</a>
+        <button class=" navbar-toggler " type="button" data-toggle="collapse" data-target="#menuglowne"
+                aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse " id="menuglowne"  >
+
+            <ul class="navbar-nav  ">
+                <li class="nav-item dropdown offset-sm-2 ">
+<!--                    <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown" role="button"-->
+<!--                       aria-expanded="false" id="submenu" aria-haspopup="true">Sklep</a>-->
+
+                    <button class="nav-link dropdown-toggle active buttonNavi  "  data-toggle="dropdown" role="button"
+                            aria-expanded="false" id="submenu" aria-haspopup="true" style="color: #1c7430">Dostawa </button>
+                    <div class="dropdown-menu " aria-labelledby="submenu">
+                        <a class="dropdown-item  " href="#">Krzaki</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Kwiaty</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Nawozy</a>
+                    </div>
+                </li>
+                <div class="dropdown-divider buttonNavi "></div>
+                <li class="nav-item">
+                    <a href="#"><button class="nav-link" style="color: #1c7430">Dostawa </button></a>
+
+<!--                    <a class="nav-link" href="#">Dostawa</a>-->
+                </li>
+                <div class="dropdown-divider buttonNavi "></div>
+                <li class="nav-item">
+                    <a href="#"> <button class="nav-link" style="color: #1c7430" >Rejestracja</button></a>
+<!--                    <a class="nav-link" href="#">Rejestracja</a>-->
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+</header>
+<main>
+
+
+    <div class="container col-12 ">
+        <div class="row col-12 ">
+            <header class="col-lg-9">
+                <span style="color: #34ce57; font-size: 30px;">SZKÓŁKA  </span> <span
+                    style="color: beige; font-size: 20px;">ROŚLIN</span>
+                <p> Zamów online swoje ulubione rośliny. Transport w Nowym Wiśniczu przy zakupie powyżej 100 zł
+                    GRATIS!!!</p>
+            </header>
+            <div class="kwiatki row col-lg-9" id="box-container">
+
+                <div class="col-sm-12 col-md-5 offset-md-1 forIMG " id="kw1">
+                    <figure id="art1">
+
+                        <p class="link col-9 offset-1  ">Kw1- Lorem ipsum dolor sit amet, consecteturadipisicing elit. Eaque, nobis! <br>
+                           PROMOCJA!!!!  CENA 30 zł</p>
+                        <a href="#"><img src="img/kawiatek1.jpg" alt="kwiatek1"> </a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt1"></button>
+
+                    </figure>
+                </div>
+                <div class="col-sm-12 col-md-5  forIMG" id="kw2">
+                    <figure id="art2">
+                        <p class="link col-9 offset-1 ">Kw2- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            PROMOCJA!!!! CENA 40zł</p>
+                        <a href="#"><img src="img/kawiatek2.jfif" alt="kwiatek2"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt2"></button>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG " id="kw3">
+                    <figure id="art3">
+                        <p class="link col-9 offset-1 ">Kw3- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 50zł</p>
+                        <a href="#"><img src="img/kawiatek3.jfif" alt="kwiatek3"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt3"></button>
+
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw4">
+                    <figure id="art4">
+                        <p class="link col-9 offset-1 ">Kw4- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 30zł</p>
+                        <a href="#"><img src="img/kawiatek4.jfif" alt="kwiatek4"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt4"></button>
+
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw5">
+                    <figure id="art5">
+                        <p class="link col-9 offset-1 ">Kw5- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 40zł</p>
+                        <a href="#"><img src="img/kawiatek5.jfif" alt="kwiatek5"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt5"></button>
+
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw6">
+                    <figure id="art6">
+                        <p class="link col-9 offset-1 ">Kw6- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 50zł</p>
+                        <a href="#"><img src="img/kawiatek6.jfif" alt="kwiatek6"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt6"></button>
+
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG " id="kw7">
+                    <figure id="art7">
+                        <p class="link col-9 offset-1 ">Kw7- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 60zł</p>
+                        <a href="#"><img src="img/kawiatek7.jfif" alt="kwiatek7"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt7"></button>
+
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw8">
+                    <figure id="art8">
+                        <p class="link col-9 offset-1 ">Kw8- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 70zł</p>
+                        <a href="#"><img src="img/kawiatek8.jfif" alt="kwiatek8"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt8"></button>
+
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw9">
+                    <figure id="art9">
+                        <p class="link col-9 offset-1 ">Kw9- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 30zł</p>
+                        <a href="#"><img src="img/kawiatek9.jfif" alt="kwiatek9"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt9"></button>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw10">
+                    <figure id="art10">
+                        <p class="link col-9 offset-1 ">Kw10- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 20zł</p>
+                        <a href="#"><img src="img/kawiatek10.jfif" alt="kwiatek10"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt10"></button>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw11">
+                    <figure id="art11">
+                        <p class="link col-9 offset-1 ">Kw11- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 10zł</p>
+                        <a href="#"><img src="img/kawiatek11.jfif" alt="kwiatek11"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt11"></button>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw12">
+                    <figure id="art12">
+                        <p class="link col-9 offset-1 ">Kw12- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 15zł</p>
+                        <a href="#"><img src="img/kawiatek12.jfif" alt="kwiatek12"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt12"></button>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw13">
+                    <figure id="art13">
+                        <p class="link col-9 offset-1 ">Kw13- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 40zł</p>
+                        <a href="#"><img src="img/kawiatek13.jfif" alt="kwiatek13"></a>
+                        <button class="kosz demo-icon icon-basket-1" id="bt13"></button>
+                    </figure>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 forIMG" id="kw14">
+                    <figure id="art14">
+                        <p class="link col-9 offset-1 ">Kw14- Lorem ipsum dolor sit amet, <br> consecteturadipisicing elit. Eaque, nobis! <br>
+                            CENA 30zł</p>
+                        <a href="#"><img src="img/kawiatek14.jfif" alt="kwiatek14"></a>
+                        <button class=" kosz demo-icon icon-basket-1" id="bt14"></button>
+                    </figure>
+
+                </div>
+            </div>
+            <div class="koszcaly col-sm-12 col-lg-3">
+                <h3 class="h4 my-3 bg-success " style="height: 50px;">TWOJE ZAKUPY</h3>
+                <div class="sumaCena col-12" id="cenaKoszyk">Suma zł :</div>
+                <div class="usunKup" id="usunKup">
+                    <div class="usunKoszyk col-6" id="usunKoszyk">Wyczyść koszyk</div>
+                    <div class="kupKoszyk col-6" id="kupKoszyk">Kupuję</div>
+
+                </div>
+
+                <div id="basket" >
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</main>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+</html>

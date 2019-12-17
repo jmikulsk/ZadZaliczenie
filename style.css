@@ -1,0 +1,175 @@
+body{
+    background-color: #383d41;
+    /*background-image: url("img/d13.jpg");*/
+    /*background-size: 100%;*/
+
+    background-image: url(img/test.jpg); /* fallback for older browsers */
+
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 100%), url(img/test.jpg);
+
+    color: #efefef;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 17px;
+}
+
+
+h1
+{
+    font-size: 36px;
+    font-weight:  400;
+    color: #c0d06f;
+    margin:20px;
+}
+
+
+.kwiatki img
+{
+
+    width: 100%;
+    height: auto;
+}
+.container p{
+    margin-bottom: 30px;
+}
+.kwiatki figcaption{
+    margin-top: 8px ;
+}
+.container{
+    text-align: center;
+}
+header{
+    margin-top: 60px;
+}
+.kwiatki{
+    margin-top: 20px;
+}
+.kwiatki figure{
+    margin: 10px;
+}
+.dropdown-item{
+    margin-right: auto;
+    margin-left: auto;
+}
+.demo-icon{
+    width: 100px;
+    height: 60px;
+}
+.kosz{
+    height: 30px;
+    width: 100%;
+}
+.box
+{
+background-color: #17a2b8;
+    flex-direction: row;
+    /*padding-left: 6px;*/
+    text-align: right;
+    margin-top: 1px;
+    height: 50px;
+    padding-top: 13px;
+    padding-right: 20px;
+
+
+}
+
+.sumaCena{
+    background-color: red;
+    alignment: left;
+    text-align: left;
+    padding-left: 8px;
+}
+.usunKoszyk{
+    background-color: #6f42c1;
+    margin-top: 1px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.kupKoszyk{
+    background-color: #c69500;
+    margin-top: 1px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 1px;
+
+}
+.usunKup{
+    display: flex;
+
+    flex-direction: row;
+}
+
+figure:hover
+{
+    /*transform: scale(0.95) rotate(2deg);*/
+}
+
+
+.button{
+    background-color: red;
+    width: 80px;
+
+}
+.icon-trash-empty{
+
+    background-color: pink;
+    width:  50px;
+    margin-top: -38px;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+
+}
+.forIMG:hover{
+
+    transform: scale(0.98);
+    /*opacity: 0.7;*/
+}
+.forIMG{
+    transition: all 0.2s ease-in-out;
+
+}
+.boxgrafika:hover{
+    transform: scale(0.95);
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+
+}
+#usunKoszyk:hover{
+    transform: scale(0.9);
+    opacity: 0.95;
+    transition: all 0.2s ease-in-out;
+}
+#kupKoszyk:hover{
+    transform: scale(1.2);
+    opacity: 0.95;
+    transition: all 0.2s ease-in-out;
+}
+.link{
+    font-weight: 900;
+    background-color: green;
+    opacity: 0;
+}
+.forIMG .link{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+
+}
+.forIMG:hover .link{
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
